@@ -2,105 +2,130 @@
 <html>
 <head>
 	<title>Food delivery</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
 </head>
-<body>
+<body class="font-sans m-0 p-0 box-border">
 
-<h1>Food delivery</h1>
-<nav>
-	<ul>
-		<a href='#'><li>Home</li></a>
-		<a href='#'><li>Order</li></a> 
-		<a href='#'><li>Near</li></a>
-		<a href='/about-us.html'><li>About</li></a>
-		<a href='#'><li>help</li></a>
+<h1 class="text-center text-darkred p-5">Food delivery</h1>
+<nav class="bg-lime grid place-items-center">
+	<ul ul class="list-none">
+		<a href='#'><li class="inline-block p-5 no-underline text-black transition duration-200 text-lg hover:bg-firebrick hover:text-white">Home</li></a>
+		<a href='#'><li class="inline-block p-5 no-underline text-black transition duration-200 text-lg hover:bg-firebrick hover:text-white">Order</li></a> 
+		<a href='#'><li class="inline-block p-5 no-underline text-black transition duration-200 text-lg hover:bg-firebrick hover:text-white">Near</li></a>
+		<a href='./about-us.html'><li class="inline-block p-5 no-underline text-black transition duration-200 text-lg hover:bg-firebrick hover:text-white">About</li></a>
+		<a href='#'><li class="inline-block p-5 no-underline text-black transition duration-200 text-lg hover:bg-firebrick hover:text-white">help</li></a>
 	</ul>
 </nav>
-
-<section class="items">
+   <!-- items here -->
+<section class="grid grid-cols-3 gap-y-8 gap-x-5 py-8 px-5">
+	
 	<div class="item">
-		<img src="images/pizza1.jpg"
+		<img 
+		class="hover:transform  hover:scale-105 h-80"
+		src="images/pizza1.jpg"
 		     width="500"
 		     height="500"/>
-		<h4>Veg Pizza</h4>
-		<button>Order</button>
+		<h4 class="p-1 text-center">Veg Pizza</h4>
+		<button class="py-1.5 px-7 border-none outline-none bg-green-600 text-white cursor-pointer rounded text-lg block mx-auto transition duration-200 transform hover:scale-110">Order</button>
 	</div>
-	<div class="item">
-		<img src="images/pizza2.jpg"
+	<div class="transform scale-105">
+		<img
+		class="hover:transform  hover:scale-105 h-70"
+		 src="images/pizza2.jpg"
 		     width="500"
 		     height="500 "/>
-		<h4>NonVegeterian  Pizza</h4>
-		<button>Order</button>
+		<h4 class="p-1 text-center">NonVegeterian  Pizza</h4>
+		<button class="py-1.5 px-7 border-none outline-none bg-green-600 text-white cursor-pointer rounded text-lg block mx-auto transition duration-200 transform hover:scale-110">Order</button>
 	</div>
-	<div class="item">
-		<img src="images/fried rice1.jpg"
+	<div class="transform scale-105">
+		<img 
+		class="hover:transform  hover:scale-105 h-80"
+		src="images/fried rice1.jpg"
 		     width="500"
 		     height="500 "/>
-		<h4>Veg Fried rice</h4>
-		<button>Order</button>
+		<h4 class="p-1 text-center">Veg Fried rice</h4>
+		<button class="py-1.5 px-7 border-none outline-none bg-green-600 text-white cursor-pointer rounded text-lg block mx-auto transition duration-200 transform hover:scale-110">Order</button>
 	</div>
-	<div class="item">
-		<img src="images/fried rice2.jpg"
+	<div class="transform scale-105">
+		<img 
+		class="hover:transform  hover:scale-105 h-80"
+		src="images/fried rice2.jpg"
 		     width="500"
 		     height="500 "/>
-		<h4>NonVeg Fried rice</h4>
-		<button>Order</button>
+		<h4 class="p-1 text-center">NonVeg Fried rice</h4>
+		<button class="py-1.5 px-7 border-none outline-none bg-green-600 text-white cursor-pointer rounded text-lg block mx-auto transition duration-200 transform hover:scale-110">Order</button>
 	</div>
-	<div class="item">
-		<img src="images/burger.jpg"
+	<div class="transform scale-105">
+		<img
+		class="hover:transform  hover:scale-105 h-80" 
+		 src="images/burger.jpg"
 		     width="500"
 		     height="500 "/>
-		<h4> Double Cheese Burger</h4>
-		<button>Order</button>
+		<h4 class="p-1 text-center"> Double Cheese Burger</h4>
+		<button class="py-1.5 px-7 border-none outline-none bg-green-600 text-white cursor-pointer rounded text-lg block mx-auto transition duration-200 transform hover:scale-110">Order</button>
 	</div>
-	<div class="item">
-		<img src="images/pasta.jpg"
+	<div class="transform scale-105">
+		<img 
+		class="hover:transform  hover:scale-105 h-80"
+		src="images/pasta.jpg"
 		     width="500"
 		     height="500 "/>
-		<h4>Italian Pasta</h4>
-		<button>Order</button>
+		<h4 class="p-1 text-center">Italian Pasta</h4>
+		<button class="py-1.5 px-7 border-none outline-none bg-green-600 text-white cursor-pointer rounded text-lg block mx-auto transition duration-200 transform hover:scale-110">Order</button>
 	</div>
-	<div class="item">
-		<img src="images/briyani1.jpg"
+	<div class="transform scale-105">
+		<img 
+		class="hover:transform  hover:scale-105 h-80"
+		src="images/briyani1.jpg"
 		     width="500"
 		     height="500 "/>
-		<h4>Veg Briyani</h4>
-		<button>Order</button>
+		<h4 class="p-1 text-center">Veg Briyani</h4>
+		<button class="py-1.5 px-7 border-none outline-none bg-green-600 text-white cursor-pointer rounded text-lg block mx-auto transition duration-200 transform hover:scale-110">Order</button>
 	</div>
-	<div class="item">
-		<img src="images/briyani2.jpg"
+	<div class="transform scale-105">
+		<img 
+		class="hover:transform  hover:scale-105 h-80"
+		src="images/briyani2.jpg"
 		     width="500"
 		     height="500 "/>
-		<h4>NonVegetarian Briyani</h4>
-		<button>Order</button>
+		<h4 class="p-1 text-center">NonVegetarian Briyani</h4>
+		<button class="py-1.5 px-7 border-none outline-none bg-green-600 text-white cursor-pointer rounded text-lg block mx-auto transition duration-200 transform hover:scale-110">Order</button>
 	</div>
-	<div class="item">
-		<img src="images/noodles.jpg"
+	<div class="transform scale-105">
+		<img 
+		class="hover:transform  hover:scale-105 h-80"
+		src="images/noodles.jpg"
 		     width="500"
 		     height="500 "/>
-		<h4>Noodles</h4>
-		<button>Order</button>
+		<h4 class="p-1 text-center">Noodles</h4>
+		<button class="py-1.5 px-7 border-none outline-none bg-green-600 text-white cursor-pointer rounded text-lg block mx-auto transition duration-200 transform hover:scale-110">Order</button>
 	</div>
-	<div class="item">
-		<img src="images/paratha.jpg"
+	<div class="transform scale-105">
+		<img 
+		class="hover:transform  hover:scale-105 h-80"
+		src="images/paratha.jpg"
 		     width="500"
 		     height="500 "/>
-		<h4>Paratha</h4>
-		<button>Order</button>
+		<h4 class="p-1 text-center">Paratha</h4>
+		<button class="py-1.5 px-7 border-none outline-none bg-green-600 text-white cursor-pointer rounded text-lg block mx-auto transition duration-200 transform hover:scale-110">Order</button>
 	</div>
-	<div class="item">
-		<img src="images/shawarma.jpg"
+	<div class="transform scale-105">
+		<img 
+		class="hover:transform  hover:scale-105 h-80"
+		src="images/shawarma.jpg"
 		     width="500"
 		     height="500 "/>
-		<h4>Shawarma</h4>
-		<button>Order</button>
+		<h4 class="p-1 text-center">Shawarma</h4>
+		<button class="py-1.5 px-7 border-none outline-none bg-green-600 text-white cursor-pointer rounded text-lg block mx-auto transition duration-200 transform hover:scale-110">Order</button>
 	</div>
-	<div class="item">
-		<img src="images/icecream.jpg"
+	<div class="transform scale-105">
+		<img
+		class="hover:transform  hover:scale-105 h-80"
+		 src="images/icecream.jpg"
 		     width="500"
 		     height="500 "/>
-		<h4>Ice Cream pop</h4>
-		<button>Order</button>
+		<h4 class="p-1 text-center">Ice Cream pop</h4>
+		<button class="py-1.5 px-7 border-none outline-none bg-green-600 text-white cursor-pointer rounded text-lg block mx-auto transition duration-200 transform hover:scale-110">Order</button>
 	</div>
 
 </section>		
